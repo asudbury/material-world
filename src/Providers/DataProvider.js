@@ -31,6 +31,7 @@ function addRandomExpense(data, setData) {
 }
 
 for (var i = 0; i < 12; i++) {
+  // eslint-disable-next-line no-loop-func
   addRandomExpense(defaultData, (newData) => {
     defaultData = newData;
   })();
