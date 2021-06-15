@@ -11,7 +11,11 @@ export const peopleSlice = createSlice({
   name: "people",
   initialState: {
     list: [
-      { name: "Joe", img: "/img/driver.png", id: nextID() },
+      {
+        name: "Joe",
+        img: "https://avatars.githubusercontent.com/u/3384470?v=4",
+        id: nextID(),
+      },
       { name: "Mary", img: "/img/driver2.png", id: nextID() },
     ],
     loading: false,

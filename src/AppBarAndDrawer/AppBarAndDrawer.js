@@ -138,13 +138,13 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="body2"
             noWrap
             to={"/"}
             component={RouterLink}
             className={classes.logo}
           >
-            Material World
+            Material World | Adrian Sudbury
           </Typography>
           <div style={{ flexGrow: 1 }}></div>
           <PalettePicker
@@ -160,7 +160,7 @@ function ResponsiveDrawer(props) {
             edge="end"
             onClick={handleDrawerToggle}
           >
-            <Avatar src="/img/driver.png" />
+            <Avatar src="https://avatars.githubusercontent.com/u/3384470?v=4" />
           </IconButton>
         </Toolbar>
       </AppBar>
