@@ -23,7 +23,7 @@
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.3.0",
-    "recharts": "^2.0.9",
+    "recharts": "^2.1.14",
     "styled-components": "^5.2.0"
   },
   "scripts": {
