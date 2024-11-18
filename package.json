@@ -15,7 +15,7 @@
     "@testing-library/user-event": "^7.1.2",
     "date-fns": "^2.12.0",
     "google-maps-react": "^2.0.2",
-    "highcharts": "^8.2.2",
+    "highcharts": "^11.4.8",
     "highcharts-react-official": "^3.2.1",
     "moment": "^2.30.1",
     "react": "^16.14.0",
